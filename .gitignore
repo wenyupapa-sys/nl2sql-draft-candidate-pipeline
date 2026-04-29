@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local data and generated outputs
+data/
+output/
+outputs/
+artifacts/
+embeddings/
+logs/
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.tgz
+
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+secrets/
+config.local.*
+
+# macOS / editor
+.DS_Store
+.idea/
+.vscode/
+
